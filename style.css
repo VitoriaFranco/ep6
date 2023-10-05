@@ -1,0 +1,37 @@
+
+body {
+    display: grid;
+    grid-template-areas:
+        "cima cima"
+        "lado meio"
+        "rodape rodape";
+    grid-template-rows: 100px 800px 100px;
+    grid-template-columns: 206px auto;
+}
+
+header {
+    grid-area: cima;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: rgb(228, 226, 240);
+    background:linear-gradient();
+}
+
+aside {
+    grid-area: lado;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: rgb(228, 226, 240);
+}
+
+main {
+    grid-area: meio;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color:rgb(228, 226, 240);
+}
+
+
+footer {
+    grid-area: rodape;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: rgb(228, 226, 240);
+}
+ 
