@@ -3,7 +3,7 @@ body {
     display: grid;
     grid-template-areas:
         "cima cima"
-        "lado meio"
+        "meio meio"
         "rodape rodape";
     grid-template-rows: 100px 800px 100px;
     grid-template-columns: 206px auto;
@@ -35,3 +35,14 @@ footer {
     background-color: rgb(228, 226, 240);
 }
  
+@media only screen and (max-width: 820px) { 
+    body{
+        grid-template-areas: 
+        "cima"
+        "meio"
+        "rodape";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }   
+
+}
