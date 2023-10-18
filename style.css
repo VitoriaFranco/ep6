@@ -54,3 +54,15 @@ footer {
   h2{
     border: red 2px solid;
   }
+
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
+}
+
+.bottom{ 
+     background-color: red;
+
+}
