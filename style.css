@@ -5,7 +5,7 @@ body {
         "cima"
         "meio"
         "rodape";
-    grid-template-rows: 100px 800px 100px;
+    grid-template-rows: 100px auto 100px;
     grid-template-columns: auto;
 }
 
@@ -53,16 +53,13 @@ footer {
 
   h2{
     border: red 2px solid;
+    width: 189px;
+
   }
 
-.verde{
+  .verde{
     color: green;
 }
 .vermelho{
     color: red;
-}
-
-.bottom{ 
-     background-color: red;
-
 }
