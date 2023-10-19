@@ -1,7 +1,7 @@
 function inclui_nome() {
     var nome_variavel = prompt("Coloque seu nome:");
     if(nome_variavel){
-        document.getElementById("marcacao_nome").innerHTML = nome_variavel;
+        document.getElementById("marcacao_nome").innerHTML = "<h3> bem vindo <h3/>" + nome_variavel;
     }
     else{
         alert("Nome não atribuido, preencha o nome.");
