@@ -18,11 +18,13 @@ function funcao_resposta(){
     var resp6 = document.querySelector('input[name="quest_6"]:checked');
     var resp7 = document.querySelector('input[name="quest_7"]:checked');
     var resp8 = document.querySelector('input[name="quest_8"]:checked');
+    var resp9 = document.querySelector('input[name="quest_9"]:checked');
+    var resp10 = document.querySelector('input[name="quest_10"]:checked');
 
     var contador = 0;
 
 
-    if(resp1 && resp2 && resp3 && resp4 && resp5 && resp6 && resp7 && resp8){
+    if(resp1 && resp2 && resp3 && resp4 && resp5 && resp6 && resp7 && resp8 && resp9 && resp10){
         if(resp1.value == "correta"){
             document.getElementById("resp_correta_1").innerHTML = "Correta!";
             contador = contador + 1;
@@ -83,9 +85,23 @@ function funcao_resposta(){
                         contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Errada, Alternativa E I. O campo elétrico é medido em Newton por Coulomb. (Correta) II. A carga elétrica é medida em Coulomb. (Correta) III. A força elétrica é medida em Newton por Joule. (Incorreta) A unidade de medida da força elétrica é o Newton. IV. A distância é medida em metros. (Correta)";
+            document.getElementById("resp_errada_8").innerHTML = "Errada, Alternativa E. I. O campo elétrico é medido em Newton por Coulomb. (Correta) II. A carga elétrica é medida em Coulomb. (Correta) III. A força elétrica é medida em Newton por Joule. (Incorreta) A unidade de medida da força elétrica é o Newton. IV. A distância é medida em metros. (Correta)";
 
         }
+         if(resp9.value == "correta"){
+            document.getElementById("resp_correta_9").innerHTML = "Correta!";
+                        contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_9").innerHTML = "Errada, Alternativa A.Duas cargas de sinais opostos se atraem devido à atração entre cargas opostas, enquanto duas cargas do mesmo sinal se repelem devido à repulsão entre cargas similares.";
+        }
+         if(resp10.value == "correta"){
+            document.getElementById("resp_correta_10").innerHTML = "Correta!";
+                        contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_10").innerHTML = "Errada, Alternativa B.  A constante eletrostática (k) na Lei de Coulomb representa a permitividade do meio em que as cargas estão situadas. Para o vácuo, a unidade da constante eletrostática é Coulombs por metro (C/m), indicando a capacidade do vácuo de permitir a propagação da força elétrica entre as cargas.";
+            
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
     }
     else{
