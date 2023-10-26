@@ -52,14 +52,14 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada, pois a força elétrica é medida em Newtons (N),  portanto a resposta correta é a letra A !";
+            document.getElementById("resp_errada_4").innerHTML = "Errada, <img src='calculo-exercicio1.webp'/> Quando as cargas se encontram a uma distância d, a força elétrica entre elas vale F, desse modo, ao triplicarmos a distância entre as cargas, estaremos em uma distância 3d. De acordo com o cálculo, a força elétrica entre as cargas deverá diminuir nove vezes, portanto a resposta correta é a letra B.";
 
         }if(resp5.value == "correta"){
             document.getElementById("resp_correta_5").innerHTML = "Correta!";
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "Errada, pois a força elétrica é inversamente proporcional ao quadrado da distância, então, quando a distância é dobrada, a força diminui pela metade,  portanto a resposta correta é a letra B!";
+            document.getElementById("resp_errada_5").innerHTML = "Errada, A alternativa correta é a letra C, que é o próprio enunciado da lei de Coulomb. Segundo essa lei, a força elétrica é proporcional ao produto das cargas e é inversamente proporcional ao quadrado da distância entre elas.";
 
         }
         if(resp6.value == "correta"){
@@ -67,7 +67,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "Errada, pois !";
+            document.getElementById("resp_errada_6").innerHTML = "Errada, Alternativa A. De acordo com a lei de Coulomb, a força elétrica é proporcional às cargas elétricas das partículas e inversamente proporcional ao quadrado da distância entre as partículas.!";
 
         }
         if(resp7.value == "correta"){
@@ -75,7 +75,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "Errada, pois de acordo com a Lei de Coulomb, a força é diretamente proporcional ao produto das cargas das partículas, portanto a resposta correta é a letra C!";
+            document.getElementById("resp_errada_7").innerHTML = "Errada, Alternativa B. De acordo com a lei de Coulomb, duas cargas elétricas de mesmo sinal apresentam força elétrica repulsiva e cargas elétricas de sinais opostos apresentam força elétrica atrativa.";
 
         }
         if(resp8.value == "correta"){
@@ -83,7 +83,7 @@ function funcao_resposta(){
                         contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "Errada, pois a força elétrica é medida em Newtons (N), !";
+            document.getElementById("resp_errada_8").innerHTML = "Errada, Alternativa E I. O campo elétrico é medido em Newton por Coulomb. (Correta) II. A carga elétrica é medida em Coulomb. (Correta) III. A força elétrica é medida em Newton por Joule. (Incorreta) A unidade de medida da força elétrica é o Newton. IV. A distância é medida em metros. (Correta)";
 
         }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";

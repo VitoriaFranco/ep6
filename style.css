@@ -5,7 +5,7 @@ body {
         "cima"
         "meio"
         "rodape";
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: auto auto 100px;
     grid-template-columns: auto;
 }
 
@@ -62,4 +62,22 @@ footer {
 }
 .vermelho{
     color: red;
+}
+
+.coruja1{
+    width: 150px;
+    text-align: center;
+
+}
+
+.coruja2{
+    width: 14px;
+   height: 12px;
+
+}
+#header_exercicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
