@@ -100,11 +100,11 @@ function funcao_resposta(){
                         contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "Errada, Alternativa B.  A constante eletrostática (k) na Lei de Coulomb representa a permitividade do meio em que as cargas estão situadas. Para o vácuo, a unidade da constante eletrostática é Coulombs por metro (C/m), indicando a capacidade do vácuo de permitir a propagação da força elétrica entre as cargas.";
-            
+            document.getElementById("resp_errada_10").innerHTML = "Errada, Alternativa B. A constante eletrostática (k) na Lei de Coulomb representa a permitividade do meio em que as cargas estão situadas. Para o vácuo, a unidade da constante eletrostática é Coulombs por metro (C/m), indicando a capacidade do vácuo de permitir a propagação da força elétrica entre as cargas.";
+        }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
-    }
-    else{
+    
+    }else{
         alert("não deixe questões em branco!");
     }
 
@@ -112,3 +112,4 @@ function funcao_resposta(){
 
 }
 
+    
